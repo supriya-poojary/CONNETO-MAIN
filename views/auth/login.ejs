@@ -198,6 +198,47 @@
             font-size: 0.9rem;
             text-align: center;
         }
+
+        /* ── Mobile Responsive ── */
+        @media (max-width: 767px) {
+            body {
+                align-items: flex-start;
+                padding: 30px 15px;
+                min-height: 100vh;
+                overflow-y: auto;
+                height: auto;
+            }
+
+            .auth-card {
+                padding: 28px 20px;
+                border-radius: 16px;
+                max-width: 100%;
+            }
+
+            .logo-text {
+                font-size: 1.7rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            .btn-submit {
+                padding: 12px;
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 479px) {
+            .auth-card {
+                padding: 22px 16px;
+            }
+
+            .form-input {
+                font-size: 0.9rem;
+                padding: 10px 14px;
+            }
+        }
     </style>
 </head>
 
